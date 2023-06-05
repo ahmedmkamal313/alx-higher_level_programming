@@ -1,57 +1,57 @@
-0x00. Python - Hello, World
+# **0x00. Python - Hello, World**
 
-- Requirements:
-  - Python Scripts:
+- **Requirements:**
+  - **Python Scripts:**
     - Allowed editors: vi, vim, emacs.
     - files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5).
     - code should use the pycodestyle (version 2.8.*).
-    - The first line of all files should be exactly #!/usr/bin/python3
+    - The first line of all files should be exactly **#!/usr/bin/python3**
     - length of files will be tested using wc.
-  - Shell Scripts:
+  - **Shell Scripts:**
     - Allowed editors: vi, vim, emacs
     - All scripts will be tested on Ubuntu 20.04 LTS
     - All scripts should be exactly two lines long (wc -l file should print 2)
     - All files should end with a new line
-    - The first line of all files should be exactly #!/bin/bash
+    - The first line of all files should be exactly **#!/bin/bash**
     - All files must be executable
 
 Included files:
 
-- 0-run:
+- **0-run:**
   - a Shell script that runs a Python script.
   - The Python file name will be saved in the environment variable $PYFILE.
-- 1-run_inline:
+- **1-run_inline:**
   - a Shell script that runs Python code.
   - The Python code will be saved in the environment variable $PYCODE.
-- 2-print.py:
+- **2-print.py:**
   - Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
     - Use the function print.
-- 3-print_number.py:
+- **3-print_number.py:**
   - Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
     - #!/usr/bin/python3
     - number = 98
-    - # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
   - The output of the script should be:
     - the number, followed by Battery street,
     - followed by a new line.
   - You are not allowed to cast the variable number into a string.
   - Your code must be 3 lines long.
   - You have to use f-strings tips.
-- 4-print_float.py:
+- **4-print_float.py:**
   - Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
     - #!/usr/bin/python3
     - number = 3.14159
-    - # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE.
+    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE.
   - The output of the program should be:
     - Float:, followed by the float with only 2 digits
     - followed by a new line.
   - You are not allowed to cast number to string.
   - You have to use f-strings.
-- 5-print_string.py:
+- **5-print_string.py:**
   - Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
     - #!/usr/bin/python3
     - str = "Holberton School"
-    - # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
   - The output of the program should be:
     - 3 times the value of str.
     - followed by a new line.
@@ -59,7 +59,7 @@ Included files:
     - followed by a new line.
   - You are not allowed to use any loops or conditional statement.
   - Your program should be maximum 5 lines long.
-- 6-concat.py:
+- **6-concat.py:**
   - print Welcome to Holberton School!
     - You are not allowed to use any loops or conditional statements.
     - You have to use the variables str1 and str2 in your new line of code
