@@ -111,3 +111,9 @@ Included files:
   - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
     - script should be maximum 98 characters long.
     - check with `wc -m 9-easter_egg.py`
+
+- **10-check_cycle.c:**
+  - Write a function in C that checks if a singly linked list has a cycle in it.
+    - Prototype: int check_cycle(listint_t *list);
+    - Return: 0 if there is no cycle, 1 if there is a cycle
+  - > Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
