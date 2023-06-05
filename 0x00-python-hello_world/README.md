@@ -28,9 +28,11 @@ Included files:
     - Use the function print.
 - **3-print_number.py:**
   - Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
-    - #!/usr/bin/python3
-    - number = 98
-    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    ``` 
+      #!/usr/bin/python3
+      number = 98
+      #YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+      ```
   - The output of the script should be:
     - the number, followed by Battery street,
     - followed by a new line.
@@ -39,9 +41,11 @@ Included files:
   - You have to use f-strings tips.
 - **4-print_float.py:**
   - Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
-    - #!/usr/bin/python3
-    - number = 3.14159
-    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE.
+    ```
+     #!/usr/bin/python3
+     number = 3.14159
+     #YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE.
+     ```
   - The output of the program should be:
     - Float:, followed by the float with only 2 digits
     - followed by a new line.
@@ -49,9 +53,11 @@ Included files:
   - You have to use f-strings.
 - **5-print_string.py:**
   - Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
-    - #!/usr/bin/python3
-    - str = "Holberton School"
-    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    ```
+     #!/usr/bin/python3
+     str = "Holberton School"
+     YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+     ```
   - The output of the program should be:
     - 3 times the value of str.
     - followed by a new line.
@@ -66,12 +72,14 @@ Included files:
     - Your program should be exactly 5 lines long.
 - **7-edges.py:**
   - Complete this source code:
-    - #!/usr/bin/python3
-    - word = "Holberton"
-    - YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-    - print(f"First 3 letters: {word_first_3}")
-    - print(f"Last 2 letters: {word_last_2}")
-    - print(f"Middle word: {middle_word}")
+    ```  
+    #!/usr/bin/python3
+    word = "Holberton"
+    YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    print(f"First 3 letters: {word_first_3}")
+    print(f"Last 2 letters: {word_last_2}")
+    print(f"Middle word: {middle_word}")
+    ```
   - You are not allowed to use any loops or conditional statements
   - Your program should be exactly 8 lines long
   - word_first_3 should contain the first 3 letters of the variable word
