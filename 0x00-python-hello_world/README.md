@@ -93,7 +93,7 @@ Included files:
   - word_last_2 should contain the last 2 letters of the variable word.
   - middle_word should contain the value of the variable word without the first and last letters.
 
-- **8-concat_edges.py**
+- **8-concat_edges.py:**
   - Complete this source code to print object-oriented programming with Python, followed by a new line.
     ```
      #!/usr/bin/python3
@@ -102,7 +102,12 @@ Included files:
      #YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
      print(str)
     ```
-  - not allowed to use any loops or conditional statements
-  - program should be exactly 5 lines long
-  - not allowed to create new variables
-  - not allowed to use string literals
+  - not allowed to use any loops or conditional statements.
+  - program should be exactly 5 lines long.
+  - not allowed to create new variables.
+  - not allowed to use string literals.
+
+- **9-easter_egg.py:**
+  - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+    - script should be maximum 98 characters long.
+    - check with `wc -m 9-easter_egg.py`
