@@ -53,10 +53,14 @@ Included files:
     - str = "Holberton School"
     - # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
   - The output of the program should be:
-    - 3 times the value of str
-    - followed by a new line
-    - followed by the 9 first characters of str
-    - followed by a new line
-  - You are not allowed to use any loops or conditional statement
-  - Your program should be maximum 5 lines long
-
+    - 3 times the value of str.
+    - followed by a new line.
+    - followed by the 9 first characters of str.
+    - followed by a new line.
+  - You are not allowed to use any loops or conditional statement.
+  - Your program should be maximum 5 lines long.
+- 6-concat.py:
+  - print Welcome to Holberton School!
+    - You are not allowed to use any loops or conditional statements.
+    - You have to use the variables str1 and str2 in your new line of code
+    - Your program should be exactly 5 lines long	
