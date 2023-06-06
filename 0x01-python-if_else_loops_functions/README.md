@@ -21,7 +21,7 @@ this project is a part of higher level programming from ALX SE.
   - No more than 5 functions per file
 
 **list of files**
-- **0-positive_or_negative.py: **
+- **0-positive_or_negative.py:**
 This program will assign a random signed `number` to the variable `number` each time it is executed.
   ```
   #!/usr/bin/python3
@@ -36,7 +36,7 @@ This program will assign a random signed `number` to the variable `number` each 
       - if the number is less than 0: `is negative`
     - followed by a new line.
 
-- **1-last_digit.py: **
+- **1-last_digit.py:**
 This program will assign a random signed number to the variable number each time it is executed.
   ```
   #!/usr/bin/python3
@@ -53,14 +53,14 @@ This program will assign a random signed number to the variable number each time
       - if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
     - followed by a new line
 
-- **2-print_alphabet.py: **
+- **2-print_alphabet.py:**
 a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
   - only use one `print` function with string format
   - only use one loop in your code
   - not allowed to store characters in a variable
   - not allowed to import any module
 
-- **3-print_alphabt.py: **
+- **3-print_alphabt.py:**
 a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
   - Print all the letters except `q` and `e`.
   - only use one `print` function with string format
@@ -68,7 +68,7 @@ a program that prints the ASCII alphabet, in lowercase, not followed by a new li
   - not allowed to store characters in a variable
   - not allowed to import any module
 
-- **4-print_hexa.py: **
+- **4-print_hexa.py:**
 a program that prints all numbers from 0 to 98 in decimal and in hexadecimal.
   - only use one `print` function with string format
   - only use one loop in your code
