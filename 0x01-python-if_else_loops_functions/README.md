@@ -83,7 +83,7 @@ a program that prints numbers from `0` to `99`.
 
 - **6-print_comb3.py:**
 a program that prints all possible different combinations of two digits.
-  - Numbers must be separated by `, , followed by a space
+  - Numbers must be separated by `,`, followed by a space
   - The two digits must be different
   - `01` and `10` are considered the same combination of the two digits `0` and `1`
   - Print only the smallest combination of two digits
@@ -99,3 +99,8 @@ a function that checks for lowercase character.
 - **8-uppercase.py:**
 a function that prints a string in uppercase followed by a new line.
   - Prototype: `def uppercase(str):`
+
+- **9-print_last_digit.py:**
+a function that prints the last digit of a number.
+  - Prototype: `def print_last_digit(number):`
+  - Returns the value of the last digit.
