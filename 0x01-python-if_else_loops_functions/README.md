@@ -128,3 +128,9 @@ Write a function in C that inserts a number into a sorted singly linked list.
   - Return: the address of the new node, or `NULL` if it failed
   - lists.h was include as support file (code was provided in the task).
 
+- **100-print_tebahpla.py:**
+Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
+
+- **101-remove_char_at.py:**
+a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
+  - Prototype: `def remove_char_at(str, n):`
