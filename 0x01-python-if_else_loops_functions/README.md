@@ -21,7 +21,7 @@ this project is a part of higher level programming from ALX SE.
   - No more than 5 functions per file
 
 **list of files**
-**0-positive_or_negative.py:**
+- **0-positive_or_negative.py:**
 This program will assign a random signed `number` to the variable `number` each time it is executed.
 ```
 #!/usr/bin/python3
@@ -36,7 +36,7 @@ number = random.randint(-10, 10)
     - if the number is less than 0: `is negative`
   - followed by a new line.
 
-**1-last_digit.py:**
+- **1-last_digit.py:**
 This program will assign a random signed number to the variable number each time it is executed.
 ```
 #!/usr/bin/python3
