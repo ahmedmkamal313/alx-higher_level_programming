@@ -61,8 +61,15 @@ a program that prints the ASCII alphabet, in lowercase, not followed by a new li
   - not allowed to import any module
 
 - **3-print_alphabt.py: **
-Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
   - Print all the letters except `q` and `e`.
+  - only use one `print` function with string format
+  - only use one loop in your code
+  - not allowed to store characters in a variable
+  - not allowed to import any module
+
+- **4-print_hexa.py: **
+a program that prints all numbers from 0 to 98 in decimal and in hexadecimal.
   - only use one `print` function with string format
   - only use one loop in your code
   - not allowed to store characters in a variable
