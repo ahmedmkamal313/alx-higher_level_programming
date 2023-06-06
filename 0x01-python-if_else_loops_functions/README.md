@@ -53,3 +53,10 @@ This program will assign a random signed number to the variable number each time
       - if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
     - followed by a new line
 
+- **2-print_alphabet.py:**
+a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+  - only use one `print` function with string format
+  - only use one loop in your code
+  - not allowed to store characters in a variable
+  - not allowed to import any module
+
