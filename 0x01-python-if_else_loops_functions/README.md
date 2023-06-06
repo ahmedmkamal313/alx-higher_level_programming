@@ -76,7 +76,26 @@ a program that prints all numbers from 0 to 98 in decimal and in hexadecimal.
   - not allowed to import any module
 
 - **5-print_comb2.py**
-a program that prints numbers from 0 to 99.
-  - Numbers must be separated by ,, followed by a space
+a program that prints numbers from `0` to `99`.
+  - Numbers must be separated by `,`, followed by a space
   - Numbers should be printed in ascending order, with two digits
   - The last number should be followed by a new line
+
+- **6-print_comb3.py:**
+a program that prints all possible different combinations of two digits.
+  - Numbers must be separated by `, , followed by a space
+  - The two digits must be different
+  - `01` and `10` are considered the same combination of the two digits `0` and `1`
+  - Print only the smallest combination of two digits
+  - Numbers should be printed in ascending order, with two digits
+  - The last number should be followed by a new line
+
+- **7-islower.py:**
+a function that checks for lowercase character.
+  - Prototype: `def islower(c):`
+  - Returns `True` if `c` is lowercase
+  - Returns `False` otherwise
+
+- **8-uppercase.py:**
+a function that prints a string in uppercase followed by a new line.
+  - Prototype: `def uppercase(str):`
