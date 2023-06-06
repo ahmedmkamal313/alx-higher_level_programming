@@ -104,3 +104,20 @@ a function that prints a string in uppercase followed by a new line.
 a function that prints the last digit of a number.
   - Prototype: `def print_last_digit(number):`
   - Returns the value of the last digit.
+
+- **10-add.py:**
+a function that adds two integers and returns the result.
+  - Prototype: `def add(a, b):`
+  - Returns the value of `a + b`
+
+- **11-pow.py:**
+a function that computes a to the power of b and return the value.
+  - Prototype: `def pow(a, b):`
+  - Returns the value of `a ^ b`
+
+- **12-fizzbuzz.py:**
+a function that prints the numbers from 1 to 100 separated by a space.
+  - For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`.
+  - For numbers which are multiples of both three and five print `FizzBuzz`.
+  - Prototype: `def fizzbuzz():`
+  - Each element should be followed by a space
