@@ -38,3 +38,10 @@ a program that prints the number of and the list of its arguments.
       - one line per argument:
         - the position of the argument (starting at `1`) followed by `:`, followed by the argument value and a new line
   - The number of elements of argv can be retrieved by using: `len(argv)`
+
+- **3-infinite_add.py:**
+a program that prints the result of the addition of all arguments.
+  - The output should be the result of the addition of all arguments, followed by a new line.
+  - cast arguments into integers by using `int()`
+  - code should not be executed when imported
+  - ![shocked to handle addition of big numbers](https://th.bing.com/th/id/OIP.C_v1yRhmotHXYW5IViBscQHaFH?pid=ImgDet&w=616&h=425&rs=1)
