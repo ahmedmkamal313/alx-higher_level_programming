@@ -45,3 +45,37 @@ a program that prints the result of the addition of all arguments.
   - cast arguments into integers by using `int()`
   - code should not be executed when imported
   - ![shocked to handle addition of big numbers](https://th.bing.com/th/id/OIP.C_v1yRhmotHXYW5IViBscQHaFH?pid=ImgDet&w=616&h=425&rs=1)
+
+- **4-hidden_discovery.py:**
+a program that prints all the names defined by the compiled module [hidden_4.pyc](https://github.com/alx-tools/0x02.py/raw/master/hidden_4.pyc).
+  - one name per line, in alpha order.
+  - print only names that do **not** start with `__`.
+  - code should not be executed when imported.
+  - Python3.8.x (`hidden_4.pyc` has been compiled with this version)
+
+- **5-variable_load.py:**
+ a program that imports the variable `a` from the file `variable_load_5.py` and prints its value.
+  - should not be executed when imported.
+
+- **100-my_calculator.py:**
+a program that imports all functions from the `file calculator_1.py` and handles basic operations.
+  - Usage: `./100-my_calculator.py a operator b`
+    - If the number of arguments is not 3, your program has to:
+      - print Usage: `./100-my_calculator.py <a> <operator> <b>` followed with a new line
+      - exit with the value `1`
+    - `operator` can be:
+      - `+` for addition
+      - `-` for subtraction
+      - `*` for multiplication
+      - `/` for division
+    - If the `operator` is not one of the above:
+      - print `Unknown operator. Available operators: +, -, * and /` followed with a new line
+      - exit with the value `1`.
+    - cast `a` and `b` into integers by using `int()`
+    - The result should be printed like this: `<a> <operator> <b> = <result>`, followed by a new line.
+  - code should not be executed when imported.
+
+- **101-easy_print.py:**
+a program that prints `#pythoniscool`, followed by a new line, in the standard output.
+  - program should be maximum 2 lines long.
+  - not allowed to use `print` or `eval` or `open` or `import sys` in  file `101-easy_print.py`
