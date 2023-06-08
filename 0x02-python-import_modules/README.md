@@ -28,3 +28,13 @@ a program that imports functions from the file `calculator_1.py`, does some Math
     - the value 5 to a variable `b`
     - and use those two variables only, as arguments when calling functions (including print)
   - a and b must be defined in 2 different lines: `a = 10` and another `b = 5`
+
+- **2-args.py:**
+a program that prints the number of and the list of its arguments.
+  - The output should be:
+    - Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
+      - : (or . if no arguments were passed) followed by
+      - a new line, followed by (if at least one argument),
+      - one line per argument:
+        - the position of the argument (starting at `1`) followed by `:`, followed by the argument value and a new line
+  - The number of elements of argv can be retrieved by using: `len(argv)`
