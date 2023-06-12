@@ -137,7 +137,9 @@
   - CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
 Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
     - All your files will be interpreted/compiled on Ubuntu 14.04 LTS.
-
+    
+    ![awww](https://media1.tenor.com/images/03704a1a53b1dd6df49a8de230aa6e2b/tenor.gif?itemid=13048290)
+    
   - Create a C function that prints some basic info about Python lists.
     - Prototype: `void print_python_list_info(PyObject *p);`
     - Python version: `3.4`
@@ -146,5 +148,5 @@ Since we now know a bit of C, we can look at what is happening under the hood of
     - Start by reading:
       - listobject.h.
       - object.h.
-      - Common Object Structures.
-      - List Objects.
+      - [Common Object Structures.](https://docs.python.org/3.4/c-api/structures.html)
+      - [List Objects.](https://docs.python.org/3.4/c-api/list.html)
