@@ -67,7 +67,7 @@
 
 - **4-new_in_list.py:**
   - a function that replaces an element in a list at a specific position without modifying the original list (like in C).
-    - Prototype: `def new_in_list(my_list, idx, element):`
+    - Prototype: `def new_in_list(my_list, idx, element):`.
     - If `idx` is negative, the function should return a copy of the original list.
     - If `idx` is out of range (> of number of element in `my_list`), the function should return a copy of the original list.
 
@@ -79,7 +79,7 @@
 - **6-print_matrix_integer.py:**
   - a function that prints a matrix of integers.
     - Prototype: `def print_matrix_integer(matrix=[[]]):`.
-    - str.format() to print integers.
+    - `str.format()` to print integers.
     - Format: see example
   ```
   /0x03-python-data_structures$ ./6-main.py | cat -e
@@ -93,7 +93,7 @@
 
 - **7-add_tuple.py:**
   - a function that adds 2 tuples.
-    - Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`
+    - Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`.
     - Returns a tuple with 2 integers:
       - The first element should be the addition of the first element of each argument.
       -	The second element should be the addition of the second element of each argument.
@@ -102,7 +102,7 @@
 
 - **8-multiple_returns.py:**
   - a function that returns a tuple with the length of a string and its first character.
-  - Prototype: `def multiple_returns(sentence):`
+  - Prototype: `def multiple_returns(sentence):`.
   - If the sentence is empty, the first character should be equal to `None`.
 
 - **9-max_integer.py:**
@@ -120,4 +120,10 @@
   - a function that deletes the item at a specific position in a list.
   - Prototype: def `delete_at(my_list=[], idx=0):`.
   - If idx is negative or out of range, nothing change (returns the same list).
+
+- **12-switch.py:**
+  - Complete the source code in order to switch value of `a` and `b`
+  - find the source code [here](https://github.com/alx-tools/0x03.py/blob/master/12-switch_py)
+  - code should be inserted where the comment is (line 4)
+  - program should be exactly 5 lines long
 
