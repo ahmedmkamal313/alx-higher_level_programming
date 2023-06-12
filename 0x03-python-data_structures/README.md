@@ -1,5 +1,5 @@
 # 0x03. Python - Data Structures: Lists, Tuples
-
+  ![python is fun](https://th.bing.com/th/id/OIP.Uc0oC3OLG1Trulc0j-jBCQAAAA?pid=ImgDet&rs=1)
 ## Requirements
 
 **Python Scripts**
@@ -23,8 +23,7 @@
   - The prototypes of all functions should be included in a header file called `lists.h`.
   - All the header files should be include guarded.
 
-**
-![python is fun](https://th.bing.com/th/id/OIP.Uc0oC3OLG1Trulc0j-jBCQAAAA?pid=ImgDet&rs=1)
+## List of files
 
 - **0-print_list_integer.py:**
   - a function that prints all integers of a list.
