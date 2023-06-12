@@ -109,3 +109,9 @@
   - a function that finds the biggest integer of a list.
   - Prototype: `def max_integer(my_list=[]):`.
   - If the list is empty, return `None`.
+
+- **10-divisible_by_2.py:**
+  - a function that finds all multiples of 2 in a list.
+  - Prototype: `def divisible_by_2(my_list=[]):`
+  - Return a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
+  - The new list should have the same size as the original list
