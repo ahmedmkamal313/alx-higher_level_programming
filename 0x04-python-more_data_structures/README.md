@@ -29,3 +29,19 @@
   - `my_list` is the initial list.
   - `search` is the element to replace in the list.
   - `replace` is the new element.
+
+- **2-uniq_add.py:**
+  - a function that adds all unique integers in a list (only once for each integer).
+  - Prototype: `def uniq_add(my_list=[]):`
+
+- **3-common_elements.py:**
+  - a function that returns a set of common elements in two sets.
+  - Prototype: `def common_elements(set_1, set_2):`
+
+- **4-only_diff_elements.py:**
+  - a function that returns a set of all elements present in only one set.
+  - Prototype: `def only_diff_elements(set_1, set_2):`
+
+- **5-number_keys.py:**
+  - a function that returns the number of keys in a dictionary.
+  - Prototype: `def number_keys(a_dictionary):`
