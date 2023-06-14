@@ -20,7 +20,14 @@ I also followed the coding style standards and made sure that my files are execu
       
 - **0x02-python-import_modules:**
   - Python - Modules, Packages, and Command Line Arguments.
-  - In this project, I learned about the basics of Python modules and packages, how to import and use functions from other files, how to create my own modules, how to use the built-in function dir(), how to prevent code from being executed when imported, and how to use command line arguments with my Python     programs.
+  - In this project, I learned about the basics of Python modules and packages, how to import and use functions from other files, how to create my own modules, how to use the built-in function dir(), how to prevent code from being executed when imported, and how to use command line arguments with my Python programs.
+
 - **0x03-python-data_structures:**
   - Python - Lists, Tuples, and Sequence Data Types.
   - In this project, I learned about the basics of Python lists and tuples, how to use them as sequence data types, and how to manipulate them with various methods and operators. I also learned about the differences and similarities between strings and lists, how to use lists as stacks and queues, how to create list comprehensions, what is tuple packing and unpacking, and what is the del statement.
+
+- **0x04-python-more_data_structures:**
+  - Python - Sets, Dictionaries, and Functional Programming.
+  - In this project, I learned about the basics of Python sets and dictionaries, how to use them as data structures, and how to perform operations on them with various methods and functions. I also learned about the differences and similarities between lists and sets, how to use sets for mathematical calculations, how to create dictionary comprehensions, what is a key-value pair, and what is the get method. Additionally, I learned about the concepts of functional programming, such as lambda functions, map, reduce, and filter functions, and how to use them to create simple and elegant expressions.
+Received message.
+
