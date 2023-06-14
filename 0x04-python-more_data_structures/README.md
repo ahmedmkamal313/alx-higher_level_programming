@@ -76,3 +76,13 @@
   - a function that returns a key with the biggest integer value.
     - Prototype: `def best_score(a_dictionary):`
     - If no score found, return `None`.
+
+- **11-multiply_list_map.py:**
+  - a function that returns a list with all values multiplied by a number without using any loops.
+    - Prototype: `def multiply_list_map(my_list=[], number=0):`
+    - Returns a new list:
+      - Same length as `my_list`.
+      - Each value should be multiplied by `number`.
+    - Initial list should not be modified.
+    - use map.
+    - file should be max 3 lines.
