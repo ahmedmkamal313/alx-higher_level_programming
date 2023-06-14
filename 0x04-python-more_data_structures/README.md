@@ -56,7 +56,23 @@
 - **7-update_dictionary.py:**
   - a function that replaces or adds key/value in a dictionary.
     - Prototype: `def update_dictionary(a_dictionary, key, value):`
-    - `key` argument will be always a string
-    - `value` argument will be any type
-    - If a key exists in the dictionary, the value will be replaced
-    - If a key doesn’t exist in the dictionary, it will be created
+    - `key` argument will be always a string.
+    - `value` argument will be any type.
+    - If a key exists in the dictionary, the value will be replaced.
+    - If a key doesn’t exist in the dictionary, it will be created.
+
+- **8-simple_delete.py:**
+  - a function that deletes a key in a dictionary.
+    - Prototype: `def simple_delete(a_dictionary, key=""):`
+    - `key` argument will be always a string.
+    - If a key doesn’t exist, the dictionary won’t change.
+
+- **9-multiply_by_2.py:**
+  - a function that returns a new dictionary with all values multiplied by 2
+    - Prototype: `def multiply_by_2(a_dictionary):`
+    - Returns a new dictionary.
+
+- **10-best_score.py:**
+  - a function that returns a key with the biggest integer value.
+    - Prototype: `def best_score(a_dictionary):`
+    - If no score found, return `None`.
