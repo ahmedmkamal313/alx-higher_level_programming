@@ -99,11 +99,17 @@
     - Returns `0` if the list is empty.
 
 - **101-square_matrix_map.py:**
-  - a function that computes the square value of all integers of a matrix using map
+  - a function that computes the square value of all integers of a matrix using map.
     - Prototype: `def square_matrix_map(matrix=[]):`
-    - `matrix` is a 2 dimensional array
+    - `matrix` is a 2 dimensional array.
     - Returns a new matrix:
-      - Same size as `matrix`
-      - Each value should be the square of the value of the input
-    - Initial matrix should not be modified
-    - use `map`
+      - Same size as `matrix`.
+      - Each value should be the square of the value of the input.
+    - Initial matrix should not be modified.
+    - use `map`.
+
+- **102-complex_delete.py:**
+  - a function that deletes keys with a specific value in a dictionary.
+    - Prototype: `def complex_delete(a_dictionary, value):`
+    - If the value doesn’t exist, the dictionary won’t change.
+    - All keys having the searched value have to be deleted.
