@@ -1,6 +1,8 @@
 # 0x05. Python - Exceptions
 This is a Python project that covers the topic of exceptions. Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions.
 
+![python](https://lh6.googleusercontent.com/proxy/GoTB_9jkgYxUNJGfhzH8WEpWZB8uVb97qUoUDuCZgsjmt-ttQ9y3vZhN1srnO2ICUr9HkQoAy1APC77WK2EIY6ZkB6ckFsYYDr5fx_ZplsKH8klDdKbG1mv7h7kx2tlW=w1200-h630-p-k-no-nu)
+
 ### Requirements:
 - **General:**
     - Allowed editors: `vi`, `vim`, `emacs`
@@ -30,6 +32,7 @@ This project contains several files that demonstrate different concepts of excep
 - `6-raise_exception_msg.py`: A function that raises a name exception with a message.
 - `100-safe_print_integer_err.py`: A function that prints an integer.
 - `101-safe_function.py`: A function that executes a function safely.
-- `102-magic_calculation.py`: A function that does the same as a Python bytecode (was provided).
+- `102-magic_calculation.py`: A function that does the same as a Python bytecode.
+- `103-python.c`: A three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
 **This project is for learning purposes only**
