@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def safe_print_division(a, b):
-    # initialize a variable to store result of the division 
+    # initialize a variable to store result of the division
     result = None
     # try-except-finally block to handle possible errors
     try:
