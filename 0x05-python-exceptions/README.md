@@ -30,4 +30,6 @@ This project contains several files that demonstrate different concepts of excep
 - `6-raise_exception_msg.py`: A function that raises a name exception with a message.
 - `100-safe_print_integer_err.py`: A function that prints an integer.
 - `101-safe_function.py`: A function that executes a function safely.
+- `102-magic_calculation.py`: A function that does the same as a Python bytecode (was provided).
+
 **This project is for learning purposes only**
