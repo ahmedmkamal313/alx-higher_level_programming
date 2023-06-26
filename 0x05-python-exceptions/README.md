@@ -1,7 +1,7 @@
 # 0x05. Python - Exceptions
 This is a Python project that covers the topic of exceptions. Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions.
 
-![python](https://lh6.googleusercontent.com/proxy/GoTB_9jkgYxUNJGfhzH8WEpWZB8uVb97qUoUDuCZgsjmt-ttQ9y3vZhN1srnO2ICUr9HkQoAy1APC77WK2EIY6ZkB6ckFsYYDr5fx_ZplsKH8klDdKbG1mv7h7kx2tlW=w1200-h630-p-k-no-nu)
+![python](https://media.giphy.com/media/ulBzToaieuiHu/giphy.gif)
 
 ### Requirements:
 - **General:**
