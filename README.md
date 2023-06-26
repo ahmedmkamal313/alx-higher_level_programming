@@ -29,5 +29,7 @@ I also followed the coding style standards and made sure that my files are execu
 - **0x04-python-more_data_structures:**
   - Python - Sets, Dictionaries, and Functional Programming.
   - In this project, I learned about the basics of Python sets and dictionaries, how to use them as data structures, and how to perform operations on them with various methods and functions. I also learned about the differences and similarities between lists and sets, how to use sets for mathematical calculations, how to create dictionary comprehensions, what is a key-value pair, and what is the get method. Additionally, I learned about the concepts of functional programming, such as lambda functions, map, reduce, and filter functions, and how to use them to create simple and elegant expressions.
-Received message.
 
+- **0x05-python-exceptions:**
+  - Python - Exceptions.
+  - In this project, I learned about the concept of exceptions in Python and how to use them effectively. Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions. They can be caused by various errors, such as syntax errors, type errors, division by zero, or invalid input. Exceptions can be handled using the try-except-finally statements, which allow us to catch and respond to different types of errors, or perform some clean-up actions after an exception. Exceptions can also be raised using the raise keyword, which allows us to create our own errors or signal some abnormal conditions.
