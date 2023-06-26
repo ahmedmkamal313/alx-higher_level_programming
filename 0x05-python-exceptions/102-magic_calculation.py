@@ -13,7 +13,7 @@ def magic_calculation(a, b):
             # Otherwise, update the result with a power and division operation
             else:
                 result += (a ** b) / i
-        # If an exception occurs, update the result with a simple addition and break the loop
+        # If an exception occurs, update the result with addition
         except Exception:
             result = b + a
             break
