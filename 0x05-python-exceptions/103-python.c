@@ -1,5 +1,7 @@
+#define Py_BUILD_CORE
+
 #include <stdio.h>
-#include <Python.h>
+#include <python3.8/Python.h>
 
 /**
  * print_python_list - Prints some basic info about Python lists
