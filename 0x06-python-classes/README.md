@@ -1,6 +1,6 @@
 # 0x06. Python - Classes and Objects
 
-![python](https://www.bing.com/images/blob?bcid=qGH0uuDICMQFOX4iNdg4Q6O4MF1b.....10)
+![python](https://i.pinimg.com/474x/c1/e8/c0/c1e8c08baeecf7887d4961bea6203e0c.jpg)
 
 This project is about learning the basics of **object-oriented programming** (OOP) in Python. OOP is a paradigm that allows us to define and manipulate data structures as objects, which have attributes and methods. Objects can also interact with each other through inheritance, composition, and polymorphism.
 
@@ -18,6 +18,7 @@ The following files are part of this project:
 - `4-square.py`: A class Square that defines a square by its size and has a getter and setter for it
 - `5-square.py`: A class Square that defines a square by its size and has a method to print it
 - `6-square.py`: A class Square that defines a square by its size and position and has a method to print it
+- `100-singly_linked_list.py`: A class Node that defines a node of a singly linked list.
 
 ### Usage
 To use these files, you can import them as modules in your Python code or run them as scripts. For example:
