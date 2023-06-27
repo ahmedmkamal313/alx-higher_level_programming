@@ -20,7 +20,8 @@ The following files are part of this project:
 - `6-square.py`: A class Square that defines a square by its size and position and has a method to print it
 - `100-singly_linked_list.py`: A class Node that defines a node of a singly linked list.
 - `101-square.py`: A class Square that defines a square by its size and position and.
-- `102-square.py1: a class Square that defines a square by its size.
+- `102-square.py1: A class Square that defines a square by its size.
+- `103-magic_class.py: A Python class MagicClass.
 
 ### Usage
 To use these files, you can import them as modules in your Python code or run them as scripts. For example:
