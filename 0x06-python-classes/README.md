@@ -19,7 +19,7 @@ The following files are part of this project:
 - `5-square.py`: A class Square that defines a square by its size and has a method to print it
 - `6-square.py`: A class Square that defines a square by its size and position and has a method to print it
 - `100-singly_linked_list.py`: A class Node that defines a node of a singly linked list.
-
+- `101-square.py`: A class Square that defines a square by its size and position and.
 ### Usage
 To use these files, you can import them as modules in your Python code or run them as scripts. For example:
 ```
