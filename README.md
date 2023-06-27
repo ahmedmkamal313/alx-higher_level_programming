@@ -33,3 +33,7 @@ I also followed the coding style standards and made sure that my files are execu
 - **0x05-python-exceptions:**
   - Python - Exceptions.
   - In this project, I learned about the concept of exceptions in Python and how to use them effectively. Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions. They can be caused by various errors, such as syntax errors, type errors, division by zero, or invalid input. Exceptions can be handled using the try-except-finally statements, which allow us to catch and respond to different types of errors, or perform some clean-up actions after an exception. Exceptions can also be raised using the raise keyword, which allows us to create our own errors or signal some abnormal conditions.
+
+- **0x06-python-classes:**
+  - Python - Classes and Objects.
+  - In this project, I learned how to use OOP in Python to define my own types of objects, called classes, and create instances of them, called objects. I learned how to set and access the attributes and methods of the objects, how to control their visibility and behavior using properties, and how to dynamically add new attributes to them. I also learned how Python treats everything as an object and how it finds the attributes of an object or class using its **dict** attribute or the getattr function.
