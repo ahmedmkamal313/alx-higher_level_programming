@@ -81,5 +81,24 @@ if __name__ == "__main__":
                 else:
                     nqueens(x + 1)  # moves on to next x value to continue
 
-    # start the recursive process at x = 0
-    nqueens(0)
+    def main():
+        """Main function that parses command line arguments & calls the nqueens
+
+        Raises:
+            SystemExit: If the number of arguments is not 2,
+            or if the argument is
+            not a positive integer, or if the argument is less than 4.
+        """
+        if len(argv) != 2:
+            print("Usage: nqueens N")
+            exit(1)
+        if argv[1].isdigit() is False:
+            print("N must be a number")
+            exit(1)
+        n = int(argv[1])
+        if n < 4:
+            print("N must be at least 4")
+            exit(1)
+
+        # start the recursive process at x = 0
+        nqueens(0)
