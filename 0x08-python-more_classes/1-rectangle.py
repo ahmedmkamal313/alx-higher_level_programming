@@ -1,8 +1,16 @@
 #!/usr/bin/python3
 
+"""Defines a rectangle class"""
+
 class Rectangle:
+    """Defines a Rectangle class with private attributes"""
 
     def __init__(self, width=0, height=0):
+        """Instantiation with optional width and height
+        Args:
+            width : The width of the rectangle.
+            height: The height of the rectangle.
+        """
         self.__width = width
         self.__height = height
 
