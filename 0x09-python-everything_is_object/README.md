@@ -3,12 +3,12 @@ This project is about exploring the concept of objects in Python and how they ar
 
 ![photo](https://i.ibb.co/F43cMYw/r-208403-QPSN8.jpg)
 
-###Learning Objectives
+### Learning Objectives
 - Understand how Python treats different types of objects
 - Learn about object identity, type and value
 - Know the difference between mutable and immutable objects
 - Practice using some built-in functions for manipulating objects
-###Requirements
+### Requirements
 - All the files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version `3.8.5`)
 - All the files should end with a newline character
 - The first line of all the script files should be exactly `#!/usr/bin/python3`
