@@ -2,6 +2,7 @@
 
 """Defines a rectangle class"""
 
+
 class Rectangle:
     """Defines a Rectangle class with private attributes"""
 
