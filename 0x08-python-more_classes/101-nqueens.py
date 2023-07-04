@@ -25,14 +25,29 @@ if __name__ == "__main__":
         a.append([i, None])
 
     def already_exists(y):
-        """check that a queen does not already exist in that y value"""
+        """Check that a queen does not already exist in that y value.
+
+        Args:
+            y (int): The y coordinate of the current queen.
+
+        Returns:
+            bool: True if a queen already exists in that y value, False otherwise.
+        """
         for x in range(n):
             if y == a[x][1]:
                 return True
         return False
 
     def reject(x, y):
-        """determines whether or not to reject the solution"""
+        """Determines whether or not to reject the solution.
+
+        Args:
+            x (int): The x coordinate of the current queen.
+            y (int): The y coordinate of the current queen.
+
+        Returns:
+            bool: True if the solution is valid, False otherwise.
+        """
         if (already_exists(y)):
             return False
         i = 0
@@ -43,12 +58,20 @@ if __name__ == "__main__":
         return True
 
     def clear_a(x):
-        """clears the answers from the point of failure on"""
+        """Clears the answers from the point of failure on.
+
+        Args:
+            x (int): The x coordinate of the current queen.
+        """
         for i in range(x, n):
             a[i][1] = None
 
     def nqueens(x):
-        """recursive backtracking function to find the solution"""
+        """Recursive backtracking function to find the solution.
+
+        Args:
+            x (int): The x coordinate of the current queen.
+        """
         for y in range(n):
             clear_a(x)
             if reject(x, y):
