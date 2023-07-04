@@ -31,7 +31,7 @@ if __name__ == "__main__":
             y (int): The y coordinate of the current queen.
 
         Returns:
-            bool: True if a queen already exists in that y value, False otherwise.
+            bool: True if a queen already exists in y value, False otherwise.
         """
         for x in range(n):
             if y == a[x][1]:
