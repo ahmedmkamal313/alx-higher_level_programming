@@ -1,7 +1,7 @@
 # 0x08. Python - More Classes and Objects
 This project is about learning more concepts of object-oriented programming (OOP) in Python, such as classes, objects, instances, attributes, methods, properties, getters, setters, special methods, class methods, static methods and more.
 
-!Chess grandmaster Judit Polgár, the strongest female chess player of all time[](https://alchetron.com/cdn/judit-polgr-619f2bbd-ffcc-41e7-a34c-9c6ca89f1e8-resize-750.jpeg)
+![Chess grandmaster Judit Polgár, the strongest female chess player of all time](https://alchetron.com/cdn/judit-polgr-619f2bbd-ffcc-41e7-a34c-9c6ca89f1e8-resize-750.jpeg)
 
 ### Requirements:
 - **General:**
