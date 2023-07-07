@@ -1,41 +1,72 @@
-def add_integer(a, b=98):
-    """
-    Add two integers
+Import the function
 
-    >>> add_integer(1, 2)
-    3
-    >>> add_integer(1, -2)
-    -1
-    >>> add_integer(1.4, 2)
-    3
-    >>> add_integer("1", 2)
-    Traceback (most recent call last):
-        ...
-    TypeError: a must be an integer
-    >>> add_integer(1, "2")
-    Traceback (most recent call last):
-        ...
-    TypeError: b must be an integer
-    >>> add_integer(float('inf'), 2)
-    Traceback (most recent call last):
-        ...
-    OverflowError: cannot convert float infinity to integer
-    >>> add_integer(float('nan'), 2)
-    Traceback (most recent call last):
-        ...
-    ValueError: cannot convert float NaN to integer
-    >>> add_integer()
-    Traceback (most recent call last):
-        ...
-    TypeError: add_integer() missing 1 required positional argument: 'a'
-    """
-    # Check if a and b are integers or floats
-    if not isinstance(a, (int, float)):
-        raise TypeError("a must be an integer")
-    if not isinstance(b, (int, float)):
-        raise TypeError("b must be an integer")
-    # Cast a and b to integers
-    a = int(a)
-    b = int(b)
-    # Return the addition of a and b
-    return a + b
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+Test
+
+	>>> add_integer(1, 2)
+	3
+	>>> add_integer(100, -2)
+	98
+	>>> add_integer(2)
+	100
+	>>> add_integer(0, 2)
+	2
+	>>> add_integer(-100, 2)
+	-98
+	>>> add_integer(100.3, -2)
+	98
+	>>> add_integer(100, 50.567)
+	150
+	>>> add_integer(50.567, 100)
+	150
+	>>> add_integer(0, 50.567)
+	50
+	>>> add_integer(50.567, 0)
+	50
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(2, None)
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+	>>> add_integer("hola")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(0, "Hola")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer(0, [25])
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer([25])
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(0, [25, 'hola'])
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer([25, 'hola'])
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(0, {1:25})
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer({1:25})
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(0, 5j)
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer(5j)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
