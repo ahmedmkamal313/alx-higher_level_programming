@@ -14,7 +14,8 @@ def matrix_mul(m_a, m_b):
         list of lists: the product of m_a and m_b
 
     Raises:
-        TypeError: if m_a or m_b is not a list, a list of lists, or contains non-numbers
+        TypeError: if m_a or m_b is not a list,
+        a list of lists, or contains non-numbers
         ValueError: if m_a or m_b is empty or if their shapes are incompatible
     """
     # Validate the inputs
