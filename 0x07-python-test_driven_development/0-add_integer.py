@@ -1,29 +1,21 @@
 #!/usr/bin/python3
-
 def add_integer(a, b=98):
     """
-    Adds two integers.
-
-    Args:
-        a: The first integer to add.
-        b: The second integer to add. Defaults to 98.
-
-    Returns:
-        The sum of a and b.
-
-    Raises:
-        TypeError: If a or b is not an integer or float.
-        ValueError: If a or b is not an exact integer.
-        OverflowError: If a or b is too large.
+    This function sum a and b.
+    Return the result int datatype.
+    Raise TypeError if data is diferrent that int.
     """
-
-    # Check if a and b are integers or floats
-    if not isinstance(a, (int, float)):
+    if not (isinstance(a, int) or isinstance(a, float)):
         raise TypeError("a must be an integer")
-    if not isinstance(b, (int, float)):
+
+    if not (isinstance(b, int) or isinstance(b, float)):
         raise TypeError("b must be an integer")
-    # Cast a and b to integers
-    a = int(a)
-    b = int(b)
-    # Return the addition of a and b
-    return a + b
+
+    if isinstance(a, float) or isinstance(a, int):
+        a = int(a)
+
+    if isinstance(b, float) or isinstance(b, int):
+        b = int(b)
+
+    if isinstance(a, int) and isinstance(b, int):
+        return int(a + b)
