@@ -141,3 +141,9 @@ ValueError: data type must provide an itemsize
 Traceback (most recent call last):
     ...
 TypeError: m_a and m_b must be a list of lists
+
+>>> a = [[1, 2], [3, 4]]
+>>> b = [[5, 6], [7, 8]]
+>>> lazy_matrix_mul(a, b)
+array([[19, 22],
+       [43, 50]])
