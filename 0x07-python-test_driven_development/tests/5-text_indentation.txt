@@ -66,6 +66,15 @@ QA case:
     <BLANKLINE>
     John
 
+>>> text_indentation("Holberton. School? How are you: John")
+Holberton.
+<BLANKLINE>
+School?
+<BLANKLINE>
+How are you:
+<BLANKLINE>
+John
+
 No input:
     >>> text_indentation()
     Traceback (most recent call last):
