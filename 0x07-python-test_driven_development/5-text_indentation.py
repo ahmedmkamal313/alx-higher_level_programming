@@ -3,6 +3,7 @@
 2 newlines after each ['.', '?', ':']
 """
 
+
 # Define a function that takes one parameter: a text string
 def text_indentation(text):
     """ prints "text" with 2 newlines after each of these char: ['.', '?', ':']

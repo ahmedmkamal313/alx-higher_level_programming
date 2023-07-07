@@ -57,14 +57,14 @@ No special char in string input:
     hello
 
 QA case:
-    >>> text_indentation("This is a test. Do you like it? I hope so: it's fun")
-    This is a test.
+    >>> text_indentation("Holberton. School? How are you: John")
+    Holberton.
     <BLANKLINE>
-    Do you like it?
+    School?
     <BLANKLINE>
-    I hope so:
+    How are you:
     <BLANKLINE>
-    it's fun
+    John
 
 No input:
     >>> text_indentation()
