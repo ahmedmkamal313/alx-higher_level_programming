@@ -1,0 +1,41 @@
+def add_integer(a, b=98):
+    """
+    Add two integers
+
+    >>> add_integer(1, 2)
+    3
+    >>> add_integer(1, -2)
+    -1
+    >>> add_integer(1.4, 2)
+    3
+    >>> add_integer("1", 2)
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
+    >>> add_integer(1, "2")
+    Traceback (most recent call last):
+        ...
+    TypeError: b must be an integer
+    >>> add_integer(float('inf'), 2)
+    Traceback (most recent call last):
+        ...
+    OverflowError: cannot convert float infinity to integer
+    >>> add_integer(float('nan'), 2)
+    Traceback (most recent call last):
+        ...
+    ValueError: cannot convert float NaN to integer
+    >>> add_integer()
+    Traceback (most recent call last):
+        ...
+    TypeError: add_integer() missing 1 required positional argument: 'a'
+    """
+    # Check if a and b are integers or floats
+    if not isinstance(a, (int, float)):
+        raise TypeError("a must be an integer")
+    if not isinstance(b, (int, float)):
+        raise TypeError("b must be an integer")
+    # Cast a and b to integers
+    a = int(a)
+    b = int(b)
+    # Return the addition of a and b
+    return a + b
