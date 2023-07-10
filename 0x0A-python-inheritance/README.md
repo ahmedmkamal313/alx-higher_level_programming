@@ -54,6 +54,9 @@ This project is about learning the basics of inheritance in Python, a key concep
 - **11-square.py:**
 	- a class `Square` that inherits from `Rectangle` (`9-rectangle.py`). (task based on `10-square.py`).
 	- Instantiation with size: `def __init__(self, size):`
+- **100-my_int.py:**
+	- a class `MyInt` that inherits from `int`
+	- `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
 - **101-add_attribute.py:**
 	- a function that adds a new attribute to an object if it’s possible.
 	- Prototype: `def add_attribute(obj, name, value)`
