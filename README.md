@@ -51,3 +51,7 @@ I also followed the coding style standards and made sure that my files are execu
 - **0x09-python-everything_is_object:**
   - Python - Everything is object.
   - In this project, I learned about the concept of objects in Python and how they are different from classes and instances. I also learned about the difference between immutable and mutable objects, and how they affect the way variables are assigned, referenced, and aliased. I learned how to use the id() function to check the identity and memory address of an object, and how to compare two variables using the is and == operators. I learned about the built-in mutable and immutable types in Python, such as lists, tuples, strings, and numbers. Finally, I learned how Python passes variables to functions by reference or by value, depending on the mutability of the object. This project helped me to understand the underlying mechanisms of Python’s object model and how to work with different types of objects in a consistent and efficient way.
+
+- **0x0A-python-inheritance:**
+  - Python - Inheritance
+  - I learned from this project how to create new classes from existing ones using inheritance, how to list and add attributes and methods to classes and instances, how to inherit from multiple classes and use the object class as the default superclass, how to override and access inherited attributes and methods, and how to use built-in functions to check and manipulate class relationships.
