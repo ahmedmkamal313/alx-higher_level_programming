@@ -42,6 +42,10 @@ This project is about learning the basics of inheritance in Python, a key concep
 	- a class BaseGeometry (based on `6-base_geometry.py`).
 	- Public instance method: `def area(self):` that raises an Exception with the message `area() is not implemented`
 	- Public instance method: `def integer_validator(self, name, value):` that validates `value`
+- **8-rectangle.py:**
+	- a class Rectangle that inherits from BaseGeometry (`7-base_geometry.py`).
+	- Instantiation with width and height: `def __init__(self, width, height):`
+	
 
 - **tests:**
     > this directory contain all the test files.
