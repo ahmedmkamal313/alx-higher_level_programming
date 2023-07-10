@@ -45,7 +45,9 @@ This project is about learning the basics of inheritance in Python, a key concep
 - **8-rectangle.py:**
 	- a class Rectangle that inherits from BaseGeometry (`7-base_geometry.py`).
 	- Instantiation with width and height: `def __init__(self, width, height):`
-	
+- **9-rectangle.py:**
+	- Write a class Rectangle that inherits from BaseGeometry (`7-base_geometry.py`). (task based on `8-rectangle.py`)
+	- Instantiation with width and height: `def __init__(self, width, height):`
 
 - **tests:**
     > this directory contain all the test files.
