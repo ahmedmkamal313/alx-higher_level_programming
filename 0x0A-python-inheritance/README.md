@@ -51,6 +51,10 @@ This project is about learning the basics of inheritance in Python, a key concep
 - **10-square.py:**
 	- a class `Square` that inherits from `Rectangle` (`9-rectangle.py`):
 	- Instantiation with size: `def __init__(self, size):`
+- **11-square.py:**
+	- a class `Square` that inherits from `Rectangle` (`9-rectangle.py`). (task based on `10-square.py`).
+	- Instantiation with size: `def __init__(self, size):`
+
 
 - **tests:**
     > this directory contain all the test files.
