@@ -12,7 +12,7 @@ def lookup(obj):
         obj: The object to get the attributes and methods for.
 
     Returns:
-        A list object containing the names of the attributes and methods of the object.
+        A list containing the names of the attributes and methods of the object
     """
     # create an empty list to store attributes of the object.
     names = []
