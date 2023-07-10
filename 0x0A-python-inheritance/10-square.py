@@ -3,7 +3,7 @@
 
 
 # Import Rectangle from 9-rectangle.py module
-Rectangle = __import__('9-rectangle.py').Rectangle
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
