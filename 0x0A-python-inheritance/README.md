@@ -35,7 +35,9 @@ This project is about learning the basics of inheritance in Python, a key concep
 	- Prototype: `def inherits_from(obj, a_class):`
 - **5-base_geometry.py:**
 	- an empty class `BaseGeometry`.
-
+- **6-base_geometry.py:**
+	- a class BaseGeometry (based on `5-base_geometry.py`).
+	- Public instance method: `def area(self):` that raises an `Exception` with the message `area() is not implemented`
 
 - **tests:**
     > this directory contain all the test files.
