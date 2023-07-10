@@ -30,6 +30,9 @@ This project is about learning the basics of inheritance in Python, a key concep
 - **3-is_kind_of_class.py:**
 	- a function that returns `True` if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise `False`
 	- Prototype: `def is_kind_of_class(obj, a_class):`
+- **4-inherits_from.py:**
+	- a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
+	- Prototype: `def inherits_from(obj, a_class):`
 
 - **tests:**
     > this directory contain all the test files.
