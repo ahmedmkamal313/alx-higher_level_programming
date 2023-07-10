@@ -2,6 +2,10 @@
 """class Rectangle that inherits from BaseGeometry"""
 
 
+# Import BaseGeometry from 7-base_geometry module
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
 class Rectangle(BaseGeometry):
     """A class that represents a rectangle"""
 
