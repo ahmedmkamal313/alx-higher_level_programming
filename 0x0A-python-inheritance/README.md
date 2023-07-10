@@ -33,6 +33,9 @@ This project is about learning the basics of inheritance in Python, a key concep
 - **4-inherits_from.py:**
 	- a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
 	- Prototype: `def inherits_from(obj, a_class):`
+- **5-base_geometry.py:**
+	- an empty class `BaseGeometry`.
+
 
 - **tests:**
     > this directory contain all the test files.
