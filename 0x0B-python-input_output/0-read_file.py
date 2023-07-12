@@ -15,5 +15,4 @@ def read_file(filename=""):
     # Use the with statement to open the file
     with open(filename, encoding="utf-8") as f:
         # Read the file content and print it to stdout
-        content = f.read()
-        print(content)
+        print(f.read(), end="")
