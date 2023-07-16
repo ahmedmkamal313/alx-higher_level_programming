@@ -2,11 +2,11 @@
 """Defines a base model class."""
 
 
-class base:
+class Base:
     """A base class for other classes in the project"""
 
     # a private class attribute to keep track of number of objects
-    _nb_objects = 0
+    __nb_objects = 0
 
     def __init__(self, id=None):
         """Initialize a Base instance with an optional id"""
