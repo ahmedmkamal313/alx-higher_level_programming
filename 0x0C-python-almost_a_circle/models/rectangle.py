@@ -105,8 +105,11 @@ class Rectangle(Base):
     def display(self):
         """Prints in stdout the Rectangle instance with the character #"""
 
+        for i in range(self.y):
+            print()
         # use a nested loop to print the rows and columns of #
         for i in range(self.height):
+            print(" " * self.x, end="")
             for j in range(self.width):
                 print('#', end="")
             print()
