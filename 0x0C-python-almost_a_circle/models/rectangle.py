@@ -20,79 +20,85 @@ class Rectangle(Base):
         self.x = x
         self.y = y
 
-        @property
-        def width(self):
-            """The getter for the width attribute"""
+    @property
+    def width(self):
+        """The getter for the width attribute"""
 
-            return self.__width
+        return self.__width
 
-        @width.setter
-        def width(self, value):
-            """The setter for the width attribute"""
+    @width.setter
+    def width(self, value):
+        """The setter for the width attribute"""
 
-            # Validate the value as an integer greater than zero
-            if type(value) is not int:
-                raise TypeError("width must be an integer")
-            if value <= 0:
-                raise ValueError("width must be > 0")
+        # Validate the value as an integer greater than zero
+        if type(value) is not int:
+            raise TypeError("width must be an integer")
+        if value <= 0:
+            raise ValueError("width must be > 0")
 
-            # Assign the value to the private attribute
-            self.__width = value
+        # Assign the value to the private attribute
+        self.__width = value
 
-        @property
-        def height(self):
-            """The getter for the height attribute"""
+    @property
+    def height(self):
+        """The getter for the height attribute"""
 
-            return self.__height
+        return self.__height
 
-        @height.setter
-        def height(self, value):
-            """The setter for the height attribute"""
+    @height.setter
+    def height(self, value):
+        """The setter for the height attribute"""
 
-            # Validate the value as an integer greater than zero
-            if type(value) is not int:
-                raise TypeError("height must be an integer")
-            if value <= 0:
-                raise ValueError("height must be < 0")
+        # Validate the value as an integer greater than zero
+        if type(value) is not int:
+            raise TypeError("height must be an integer")
+        if value <= 0:
+            raise ValueError("height must be > 0")
 
-            # Assign the value to the private attribute
-            self.__height = value
+        # Assign the value to the private attribute
+        self.__height = value
 
 
-        @property
-        def x(self):
-            """The getter for the x attribute"""
+    @property
+    def x(self):
+        """The getter for the x attribute"""
 
-            return self.__x
+        return self.__x
 
-        @x.setter
-        def x(self, value):
-            """The setter for the x attribute"""
+    @x.setter
+    def x(self, value):
+        """The setter for the x attribute"""
 
-            # Validate the value as an integer greater than or equal to zero
-            if type(value) is not int:
-                raise TypeError("x must be an integer")
-            if value < 0:
-                raise ValueError("x must be >= 0")
+        # Validate the value as an integer greater than or equal to zero
+        if type(value) is not int:
+            raise TypeError("x must be an integer")
+        if value < 0:
+            raise ValueError("x must be >= 0")
 
-            # Assign the value to the private attribute
-            self.__x = value
+        # Assign the value to the private attribute
+        self.__x = value
 
-        @property
-        def y(self):
-            """The getter for the y attribute"""
+    @property
+    def y(self):
+        """The getter for the y attribute"""
 
-            return self.__y
+        return self.__y
 
-        @y.setter
-        def y(self, value):
-            """The setter for the y attribute"""
+    @y.setter
+    def y(self, value):
+        """The setter for the y attribute"""
 
-            # Validate the value as an integer greater than or equal to zero
-            if type(value) is not int:
-                raise TypeError("y must be an integer")
-            if value < 0:
-                raise ValueError("y must be >= 0")
+        # Validate the value as an integer greater than or equal to zero
+        if type(value) is not int:
+            raise TypeError("y must be an integer")
+        if value < 0:
+            raise ValueError("y must be >= 0")
 
-            # Assign the value to the private attribute
-            self.__y = value 
+        # Assign the value to the private attribute
+        self.__y = value
+
+    def area(self):
+        """Returns the area value of the Rectangle instance"""
+
+        # The area of a rectangle is width times height
+        return self.width * self.height
