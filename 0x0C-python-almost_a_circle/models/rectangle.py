@@ -58,7 +58,6 @@ class Rectangle(Base):
         # Assign the value to the private attribute
         self.__height = value
 
-
     @property
     def x(self):
         """The getter for the x attribute"""
@@ -102,3 +101,12 @@ class Rectangle(Base):
 
         # The area of a rectangle is width times height
         return self.width * self.height
+
+    def display(self):
+        """Prints in stdout the Rectangle instance with the character #"""
+
+        # use a nested loop to print the rows and columns of #
+        for i in range(self.height):
+            for j in range(self.width):
+                print('#', end="")
+            print()
