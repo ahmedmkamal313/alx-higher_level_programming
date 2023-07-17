@@ -14,8 +14,22 @@ class Square(Rectangle):
         # Call the super class
         super().__init__(size, size, x, y, id)
 
-        def __str__(self):
-            """Returns a string representation of the Square instance"""
+    def __str__(self):
+        """Returns a string representation of the Square instance"""
 
-            return ("[Square] ({}) {}/{} - {}"
-                    .format(self.id, self.x, self.y, self.width))
+        return ("[Square] ({}) {}/{} - {}"
+                .format(self.id, self.x, self.y, self.width))
+
+    @property
+    def size(self):
+        """The getter for the size attribute"""
+
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """The setter for the size attribute"""
+
+        # Assign the value to both the width and height attributes
+        self.width = value
+        self.height = value
