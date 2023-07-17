@@ -20,8 +20,10 @@ It also covers some new topics, such as:
 - Python 3.7 or higher
 - PEP 8 style
 
-| **File** 			      | **Description** 				 |
-| :--- 				      |	 					    ---: |
+## Files
+The project consists of the following files:
+| **File** 			                      | **Description** 				                         |
+| :--- 				                        |	:--- 					                                   |
 | models/base.py                      | The base class for all other classes             |
 | models/init.py                      | An empty file that makes models a Python package |
 | models/rectangle.py                 | The class Rectangle that inherits from Base      |
@@ -30,8 +32,7 @@ It also covers some new topics, such as:
 | tests/test_models/test_rectangle.py | The unittests for the rectangle class            |
 | tests/test_models/test_square.py    | The unittests for the square class               |
 
-### Usage:
-
+## Usage:
 To use the classes, you can import them from the models package:
 ```
 from models.base import Base
