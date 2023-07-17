@@ -67,5 +67,30 @@ class TestSquare(unittest.TestCase):
        self.assertIsInstance(s_dict ,dict)
        self.assertDictEqual(s_dict ,{"x":5 ,"y":6 ,"id":1 ,"size":10})
 
+    def test_invalid_size(self):
+        """Test the initialization of a Square instance with an invalid size"""
+
+        # Try to create a Square instance with a negative size
+        with self.assertRaises(ValueError):
+            s1 = Square(-10, 5, 6, 1)
+
+        # Try to create a Square instance with a zero size
+        with self.assertRaises(ValueError):
+            s2 = Square(0, 5, 6, 1)
+
+        # Try to create a Square instance with a non-integer size
+        with self.assertRaises(TypeError):
+            s3 = Square("10", 5, 6, 1)
+
+    def test_area(self):
+        """Test the area method of a Square instance"""
+
+        # Create a Square instance with valid arguments
+        s1 = Square(10, 5, 6, 1)
+
+        # Check if the area method returns the correct value
+        expected = 100
+        self.assertEqual(s1.area(), expected)
+
 if __name__ == "__main__":
     unittest.main()
