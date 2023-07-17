@@ -48,3 +48,15 @@ class Base:
 
         with open(filename, "w") as f:
             f.write(json_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Returns the list of the JSON string representation json_string"""
+
+        # If json_string is None or empty, return an empty list
+        if json_string is None or not json_string:
+            return []
+
+        # Otherwise, use the json.loads method to
+        # return the list represented by json_string
+        return json.loads(json_string)
