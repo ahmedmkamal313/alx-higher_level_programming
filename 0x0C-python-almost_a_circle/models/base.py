@@ -2,6 +2,9 @@
 """Defines a base model class."""
 
 
+import json
+
+
 class Base:
     """A base class for other classes in the project"""
 
@@ -18,3 +21,14 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    @staticmethod
+    def to_json_string(list_dictionaries):
+        """Returns the JSON string representation of list_dictionaries"""
+
+        # If list_dictionaries is None or empty, return the string "[]"
+        if list_dictionaries is None or not list_dictionaries:
+            return "[]"
+        # Otherwise, use the json.dumps method to return
+        # the JSON string representation of list_dictionaries
+        return json.dumps(list_dictionaries)
