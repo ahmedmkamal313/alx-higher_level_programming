@@ -55,3 +55,23 @@ I also followed the coding style standards and made sure that my files are execu
 - **0x0A-python-inheritance:**
   - Python - Inheritance
   - I learned from this project how to create new classes from existing ones using inheritance, how to list and add attributes and methods to classes and instances, how to inherit from multiple classes and use the object class as the default superclass, how to override and access inherited attributes and methods, and how to use built-in functions to check and manipulate class relationships.
+
+- **0x0B-python-input_output:**
+  - Python - Input/Output
+  -  This project is about learning how to read and write files in Python, as well as how to manipulate data using JSON format. The main topics covered are:
+    - How to open and close files using the `open` and `close` functions, or the `with`statement
+    - How to read and write text files using the `read`, `write`, and `append` methods
+    - How to use the `try-except` block to handle errors and exceptions
+    - How to use the `os` module to check if a file exists or delete a file
+    - How to use the `json` module to convert Python objects to JSON strings, and vice versa
+    - How to create and use custom classes with JSON serialization and deserialization
+
+- **0x0C-python-almost_a_circle:**
+  - Python - Almost a Circle
+  - This project is about learning how to use classes, inheritance, and abstraction in Python. It also covers how to use the `unittest` module to write and run tests, and how to handle arguments and serialization with JSON
+ 
+- **0x0D-SQL_introduction:**
+
+  ![SQL](https://media.licdn.com/dms/image/C5612AQHPCxpt-G7C1w/article-cover_image-shrink_600_2000/0/1521919680457?e=2147483647&v=beta&t=B9hVQaW7rlFo20VB7fycFcyqUXUF3c6wMw4UIE9JeLs)
+  - SQL - Introduction
+  - This project is about learning the basics of SQL and relational databases. SQL stands for Structured Query Language, which is a standard language for storing, manipulating, and retrieving data in databases1. Relational databases are systems that organize data into tables, rows, and columns, and use primary keys and foreign keys to establish relationships between tables
