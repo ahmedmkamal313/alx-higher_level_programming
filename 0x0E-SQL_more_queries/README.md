@@ -59,3 +59,6 @@ The following files are scripts that perform various SQL tasks:
 | [14-my_genres.sql](https://github.com/ahmedmkamal313/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/14-my_genres.sql)	| List all genres of the show Dexter, in order of ascending genre name |
 | [15-comedy_only.sql](https://github.com/ahmedmkamal313/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/15-comedy_only.sql)	| List all comedy shows in the database hbtn_0d_tvshows, in order of ascending show title |
 | [16-shows_by_genre.sql](https://github.com/ahmedmkamal313/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/16-shows_by_genre.sql)	| List all shows and their genres from the database hbtn_0d_tvshows, in order of descending number of genres linked |
+
+## Adnavced tasks files:
+- [100-not_my_genres.sql](https://github.com/ahmedmkamal313/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/100-not_my_genres.sql): This file contains a SQL script that lists all genres not linked to the show Dexter in the database hbtn_0d_tvshows. The script uses a subquery to find the genres that are linked to Dexter, and then uses the NOT IN operator to exclude them from the result. The script also orders the result by ascending genre name
