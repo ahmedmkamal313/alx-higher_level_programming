@@ -13,7 +13,7 @@ if (isPosInt) {
   for (let i = 0; i < num; i++) {
     console.log('C is fun');
   }
-} else {
+} else if (isNaN(num)) {
   // The argument is not a positive integer, print "Missing number of occurrences"
   console.log('Missing number of occurrences');
 }
