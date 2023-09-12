@@ -1,19 +1,11 @@
 #!/usr/bin/node
 // Defines a function that prints the number of arguments already printed and the new argument value
 
-// Export the function
+// The number is incremented by one each time the function is called
+// Declare and initialize a count variable to keep track of the number of calls
+let count = 0;
 exports.logMe = function (item) {
-  // Initialize a variable to store the number of arguments already printed
-  // Use a closure to keep the variable in scope
-  let count = (function () {
-    // Use a private variable to store the count
-    let counter = 0;
-    // Return a function that increments and returns the counter
-    return function () {
-      return counter++;
-    };
-  })();
-
-  // Print the count and the item using a template literal
-  console.log(`${count()}: ${item}`);
+  // Define and export the logMe function
+  console.log(`${count++}: ${item}`);
+  // Use template literals to log the count and the item, and increment the count by one
 };
