@@ -79,3 +79,9 @@ I also followed the coding style standards and made sure that my files are execu
 - **0x0E-SQL_more_queries:**
   - **SQL**🐬 - More queries
   - In this project, I learned how to create and manage users and privileges in MySQL, how to use primary keys and foreign keys to link tables, how to use constraints to enforce data integrity and prevent duplicate values, and how to query data from multiple tables using subqueries, joins, and unions. I used various SQL statements and clauses, such as CREATE USER, GRANT, REVOKE, DROP USER, PRIMARY KEY, FOREIGN KEY, REFERENCES, ON DELETE, ON UPDATE, NOT NULL, UNIQUE, CHECK, DEFAULT, SELECT, FROM, WHERE, GROUP BY, ORDER BY, LIMIT, JOIN, UNION, INTERSECT, and EXCEPT. I also learned how to use different types of joins and unions, such as inner join, left join, right join, full join, cross join, union all.
+
+- **0x12-javascript-warm_up**:
+
+  ![js](https://miro.medium.com/max/1200/0*FM5nNVcZgCif33Z7.png)
+  - **JavaScript** - Basics and Modules
+  - In this project, I learned about the basics of JavaScript programming language, how to run a JavaScript script, how to create variables and constants, what are the data types and operators, how to use the if, if … else, while and for statements, how to use comments, how to affect values to variables, how to use functions and scope of variables, how to manipulate objects and access their attributes, how to use the this keyword, how to create classes and inheritance, and how to use modules and export functions. I also learned how to use the console.log(…) method to print output and the process.argv array to get the arguments passed to the script.
