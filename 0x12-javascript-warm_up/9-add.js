@@ -1,6 +1,6 @@
 #!/usr/bin/node
 // This script prints the addition of 2 int
-function add(a, b) {
+function add (a, b) {
   return a + b; // Return the sum of a and b
 }
 
