@@ -1,7 +1,4 @@
 #!/usr/bin/node
-Here is a possible code for a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence:
-
-// 101-sorted.js
 // Defines a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence
 
 // Import the dict from the file 101-data.js
