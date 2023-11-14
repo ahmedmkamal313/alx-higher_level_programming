@@ -85,3 +85,8 @@ I also followed the coding style standards and made sure that my files are execu
   ![js](https://miro.medium.com/max/1200/0*FM5nNVcZgCif33Z7.png)
   - **JavaScript** - Basics and Modules
   - In this project, I learned about the basics of JavaScript programming language, how to run a JavaScript script, how to create variables and constants, what are the data types and operators, how to use the if, if … else, while and for statements, how to use comments, how to affect values to variables, how to use functions and scope of variables, how to manipulate objects and access their attributes, how to use the this keyword, how to create classes and inheritance, and how to use modules and export functions. I also learned how to use the console.log(…) method to print output and the process.argv array to get the arguments passed to the script.
+
+- **0x13-javascript-objects_scopes_closures**:
+
+  - JavaScript - Objects, Scopes and Closures 
+  - In this project, I learned about JavaScript objects, scopes, closures, and how to use them to create and manipulate data structures. I learned how to create an object in JavaScript, what this means, what undefined means, why the variable type and scope is important, what is a closure, what is a prototype, how to inherit an object from another, and how to use modules and export functions. I also learned how to use the class notation for defining classes, how to use the super() method for calling the constructor of a parent class, how to use the map() method for creating a new array with the results of calling a function on every element in the original array, and how to use the fs module for working with the file system.
