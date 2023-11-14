@@ -9,7 +9,7 @@ class Square extends Rectangle {
   // Constructor that takes 1 argument: size
   constructor (size) {
     // Call the constructor of Rectangle using super() with size as both arguments
-    super (size, size);
+    super(size, size);
   }
 }
 
