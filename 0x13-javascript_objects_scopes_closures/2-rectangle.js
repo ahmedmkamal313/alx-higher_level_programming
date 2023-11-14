@@ -10,9 +10,6 @@ class Rectangle {
       this.width = w;
       // Initialize the instance attribute height with the value of h
       this.height = h;
-    } else {
-      // create an empty ebject
-      return {};
     }
   }
 }
