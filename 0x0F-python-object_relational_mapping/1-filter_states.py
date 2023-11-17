@@ -22,7 +22,9 @@ if __name == "__main__":
     cursor = db.cursor()
 
     # Execute a SQL query
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC")
+    cursor.execute(
+            "SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC"
+            )
 
     # Fetch all records
     rows = cursor.fetchall()
