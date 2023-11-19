@@ -10,6 +10,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # create a base class
 Base = declarative_base()
 
+
 # Define a State class that inherits from Base
 class State(Base):
     """Represents a state in the database"""
