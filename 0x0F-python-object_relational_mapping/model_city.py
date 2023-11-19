@@ -6,6 +6,7 @@ This file contains the class definition of a City.
 from sqlalchemy import Column, Integer, String, ForeignKey
 from model_state import Base, State
 
+
 # Define a City class that inherits from Base
 class City(Base):
     """Represents a city in the database"""
