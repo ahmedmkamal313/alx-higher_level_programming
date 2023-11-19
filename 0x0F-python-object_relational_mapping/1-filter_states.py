@@ -22,7 +22,8 @@ if __name__ == "__main__":
 
     # Execute a SQL query
     cursor.execute(
-            "SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY states.id ASC"
+            "SELECT * FROM states WHERE name LIKE BINARY 'N%' \
+                    ORDER BY states.id ASC"
             )
 
     # Fetch all records
