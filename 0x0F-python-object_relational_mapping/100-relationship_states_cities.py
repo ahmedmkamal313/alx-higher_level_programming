@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # Create a session factory bound to the engine
     Session = sessionmaker(bind=engine)
-
+    Base.metadata.create_all(engine)
     # Create a session object
     session = Session()
 
