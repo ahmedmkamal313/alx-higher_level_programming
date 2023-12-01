@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """
 This module takes in a URL, sends a request to the URL and displays the body of
-the response using the requests and sys packages. It also checks the HTTP status
-code and prints an error message if it is greater than or equal to 400.
+the response using the requests and sys packages.
+It also checks the HTTP status code and prints
+an error message if it is greater than or equal to 400.
 """
 
 import requests
