@@ -16,7 +16,7 @@ if __name__ == "__main__":
     try:
         with urllib.request.urlopen(url) as response:
             # Read and decode the response body
-            html = response.read().decode('utf-f')
+            html = response.read().decode('utf-8')
             # print the response body
             print(html)
     # handle the htttperror expecion
