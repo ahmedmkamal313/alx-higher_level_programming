@@ -1,22 +1,12 @@
 #!/usr/bin/node
-// A script that writes a string to a file.
+// This is a Node.js script that writes a file with the given name and content
 
-// Import the fs module
+// Import the fs module to access file system operations
 const fs = require('fs');
 
-// Get the file path from the first argument
-const filePath = process.argv[2];
-
-// Get the string to write from the second argument
-const string = process.argv[3];
-
-// Write the string to the file in utf-8 encoding
-fs.writeFile(filePath, string, 'utf8', (err) => {
-  // If an error occurred, print the error object
-  if (err) {
-    console.error(err);
-  } else {
-    // Otherwise, print a success message
-    console.log('The file was written!');
-  }
+// Use the writeFile method to create a file with
+// the name and content from the command line arguments
+fs.writeFile(process.argv[2], process.argv[3], error => {
+  // If there is an error, log it to the console
+  if (error) console.log(error);
 });
