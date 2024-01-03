@@ -1,18 +1,19 @@
 #!/usr/bin/node
+// A script that reads and prints the content of a file.
+
 // Import the fs module
-var fs = require('fs');
+const fs = require('fs');
 
 // Get the file path from the first argument
-var filePath = process.argv[2];
+const filePath = process.argv[2];
 
-// Read the file asynchronously
-fs.readFile(filePath, 'utf-8', function (err, data) {
+// Read the file in utf-8 encoding
+fs.readFile(filePath, 'utf8', (err, data) => {
   // If an error occurred, print the error object
   if (err) {
-    console.log(err);
-  }
-  // Otherwise, print the content of the file
-  else {
+    console.error(err);
+  } else {
+    // Otherwise, print the file content
     console.log(data);
   }
 });
