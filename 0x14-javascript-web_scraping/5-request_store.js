@@ -1,31 +1,12 @@
 #!/usr/bin/node
-// A script that gets the contents of a webpage and stores it in a file.
+// This is a Node.js script that downloads a file from a given URL and saves it with a given name
 
-// Import the request and fs modules
-const request = require('request');
+// Import the fs module to access file system operations
 const fs = require('fs');
 
-// Get the URL to request from the first argument
-const url = process.argv[2];
+// Import the request module to make HTTP requests
+const request = require('request');
 
-// Get the file path to store the body response from the second argument
-const filePath = process.argv[3];
-
-// Make a GET request to the URL
-request.get(url, (err, response, body) => {
-  // If an error occurred, print the error object
-  if (err) {
-    console.error(err);
-  } else {
-    // Otherwise, write the body response to the file in UTF-8 encoding
-    fs.writeFile(filePath, body, 'utf8', (err) => {
-      // If an error occurred, print the error object
-      if (err) {
-        console.error(err);
-      } else {
-        // Otherwise, print a success message
-        console.log('The file was saved!');
-      }
-    });
-  }
-});
+// Use the request method to get the data from the URL given as the first command line argument
+// and pipe it to the createWriteStream method to save it as a file with the name given as the second command line argument
+request(process.argv[2]).pipe(fs.createWriteStream(process.argv[3]));
